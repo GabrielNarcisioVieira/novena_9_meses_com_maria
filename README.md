@@ -22,7 +22,6 @@ Oferecer uma experiência simples, acessível e visualmente agradável para qual
 | **Bootstrap 5** | Estilização e responsividade da interface |
 | **JavaScript Vanilla** | Lógica de navegação e interatividade no front-end |
 | **HTML5 + CSS3** | Marcação semântica e estilos adicionais |
-| **Date API (Intl)** | Manipulação e formatação de datas para a novena |
 
 ## 🧭 Funcionalidades
 
@@ -52,6 +51,9 @@ git clone https://github.com/seu-usuario/novena-9-meses.git
 cd novena-9-meses
 npm install
 
+# Altere a porta no arquivo .env
+PORT="3000"
+
 # Inicie o servidor
 npm start
 
@@ -73,4 +75,4 @@ A novena acontece de **25 de março a 25 de dezembro**. Fora desse intervalo, o 
 
 ---
 
-## ✝️ Soli Deo Gloria
+## ✝️ À Ele a glória!
