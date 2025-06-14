@@ -1,0 +1,146 @@
+<body>
+    <!-- About Two Start -->
+    <section class="gap about-two">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="about-info text-center">
+                    <h2 data-aos="fade-up" data-aos-delay="200" data-aos-duration="400"> 9 MESES COM MARIA </h2>
+                    <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">Novena da anunciação ao
+                        nascimento de Jesus</p>
+                </div>
+
+                <div class="col-12" style="margin-bottom: 35px;">
+                    <div style="max-width: 600px; margin: 0 auto;">
+                        <h5 style="text-align: center; margin-bottom: 12px;">Como fazer a novena diariamente</h5>
+                        <p>• Começar cada dia com um sinal da cruz;</p>
+                        <p>• Pedir a iluminação do Espírito Santo com uma oração espontânea;</p>
+                        <p>• Ler a reflexão do dia;</p>
+                        <p>• Fazer a oração diária “Oração da gravidez de Maria”;</p>
+                        <p>• Terminar com um Pai-Nosso, três Ave-Marias e um Glória ao Pai.</p>
+                    </div>
+
+                    <div class="row" style="max-width: 600px; margin: 0 auto;">
+                        <div class="col-6">
+                            <div class="text-center">
+                                <button class="theme-btn" style=" margin: 0 auto; margin-top: 20px;"
+                                    onclick="abrirModalNavegar({{json datas}})">
+                                    Escolher outra data
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="text-center">
+                                <button class="theme-btn" style=" margin: 0 auto; margin-top: 20px;"
+                                    onclick="window.location.href='/novena'">
+                                    Acessar leitura de hoje
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="subscribe" style="border-radius: 12px; max-width: 600px; margin: 0 20px">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+
+                                <center>
+                                    <h3 class="text-white">Leitura do dia {{dataAtual}}</h3>
+                                </center>
+                                <br>
+                                <center>
+                                    <p class="text-white">"{{novenaHoje.versiculo}}"</p>
+                                </center>
+                                <br>
+                                <p class="text-white" style="text-align: justify;">{{novenaHoje.texto}}</p>
+                                {{#if novenaHoje.reflexao}}
+                                <p class="text-white" style="text-align: justify;"><strong>Reflexão:</strong>
+                                    {{novenaHoje.reflexao}}</p>
+                                {{/if}}
+                                <br>
+                                <br>
+                                {{#if novenaHoje.mensagem_final_titulo}}
+                                <center>
+                                    <h5 class="text-white">{{novenaHoje.mensagem_final_titulo}}</h5>
+                                </center>
+                                <br>
+                                <p class="text-white" style="text-align: justify;">{{novenaHoje.mensagem_final_texto}}</p>
+                                <br>
+                                <br>
+                                {{/if}}
+                                <center>
+                                    <h5 class="text-white">Oração da gravidez de Maria</h5>
+                                </center>
+                                <br>
+                                <p class="text-white" style="text-align: justify;">{{oracao_gravidez_maria}}</p>
+                                <br>
+                                <center>
+                                    <h5 class="text-white">Rezar</h5>
+                                </center>
+                                <p class="text-white">• 1x Pai-Nosso;</p>
+                                <p class="text-white">• 3x Ave-Maria;</p>
+                                <p class="text-white">• 1x Glória ao Pai.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <!-- About Two End -->
+
+    <!-- Scroll to top -->
+    <button id="scrollTop" class="scrollTopStick"><svg viewBox="0 0 490.523 490.523" fill="#fff" height="15">
+            <path style="fill:#FFC107;"
+                d="M487.411,355.047L252.744,120.38c-4.165-4.164-10.917-4.164-15.083,0L2.994,355.047 c-4.093,4.237-3.976,10.99,0.262,15.083c4.134,3.993,10.687,3.993,14.821,0l227.115-227.115l227.115,227.136 c4.237,4.093,10.99,3.976,15.083-0.261c3.993-4.134,3.993-10.688,0-14.821L487.411,355.047z">
+            </path>
+            <path
+                d="M479.859,373.266c-2.831,0.005-5.548-1.115-7.552-3.115L245.192,143.015L18.077,370.151 c-4.237,4.093-10.99,3.976-15.083-0.262c-3.993-4.134-3.993-10.687,0-14.821l234.667-234.667c4.165-4.164,10.917-4.164,15.083,0 l234.667,234.667c4.159,4.172,4.148,10.926-0.024,15.085C485.388,372.146,482.681,373.265,479.859,373.266z">
+            </path>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+            <g> </g>
+        </svg></button>
+
+    <!-- Jquery -->
+    <script src="/js/jquery.min.js"></script>
+
+    <!-- Bootstrap Js -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Waypoint -->
+    <script src="/js/jquery.waypoints.min.js"></script>
+
+    <!-- Counter -->
+    <script src="/js/jquery.counterup.min.js"></script>
+
+    <!-- Slick Slider Js -->
+    <script src="/js/slick.min.js"></script>
+
+    <!-- Animate on scroll Js -->
+    <script src="/js/aos.js"></script>
+
+    <!-- Tilt on hover -->
+    <script src="/js/tilt.jquery.js"></script>
+
+    <!-- Fontawesome Js -->
+    <script src="/js/fontawesome.js"></script>
+
+    <!-- Fancybox Js -->
+    <script src="/js/jquery.fancybox.min.js"></script>
+
+    <!-- Custom Js -->
+    <script src="/js/custom.js"></script>
+</body>

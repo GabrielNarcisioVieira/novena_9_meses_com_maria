@@ -1,0 +1,19 @@
+{
+  "author": {"name": "Gabriel Narcísio Vieira de Oliveira", "email": "gabriel.narcsio@gmail.com"},
+  "description": "Site criado para acompanhamento da novena 9 meses com Maria, a fim de facilitar as leituras diárias e as orações propostas. ",
+  "version": "1.0",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "handlebars": "^4.7.8",
+    "nodejs": "^0.0.0",
+    "nodemon": "^3.1.0"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js"
+  }
+}
