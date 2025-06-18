@@ -458,7 +458,7 @@ const novena = [
     {
         "data": "09/06",
         "versiculo": "Eis que ficarás mudo e não poderás falar até o dia em que estas coisas acontecerem, visto que não deste crédito às minhas palavras, que se hão de cumprir a seu tempo. (Lucas 1,20)",
-        "texto": "Hoje, consegui compreender certinho o motivo de Zacarias estar mudo. Segundo Isabel, depois que o anjo revelou tudo a Zacarias, ele então perguntou como seria possível ter certeza de toda essa revelação. The angel said that his name was Gabriel, that he served God in his presence, and that he had been sent to communicate this good news. O próprio anjo sentenciou que Zacarias ficaria mudo até que o menino nascesse, por causa da sua dúvida demonstrada diante do anúncio. “Quando meu marido saiu do Santuário do Senhor, as pessoas do lado de fora estavam muito preocupadas, pois ele demorou muito lá dentro. Ao perceberem que ele saiu mudo, logo compreenderam que ele tinha tido uma visão”, contou Isabel.",
+        "texto": "Hoje, consegui compreender certinho o motivo de Zacarias estar mudo. Segundo Isabel, depois que o anjo revelou tudo a Zacarias, ele então perguntou como seria possível ter certeza de toda essa revelação. O anjo disse que se chamava Gabriel, que ele servia a Deus em sua presença e que havia sido enviado a comunicar essa boa notícia. O próprio anjo sentenciou que Zacarias ficaria mudo até que o menino nascesse, por causa da sua dúvida demonstrada diante do anúncio. “Quando meu marido saiu do Santuário do Senhor, as pessoas do lado de fora estavam muito preocupadas, pois ele demorou muito lá dentro. Ao perceberem que ele saiu mudo, logo compreenderam que ele tinha tido uma visão”, contou Isabel.",
         "reflexao": "As experiências que fazemos de Deus dificilmente ficarão no anonimato, nossos olhos dão testemunho que fomos tocados pelo Amor."
     },
     {
@@ -512,7 +512,7 @@ const novena = [
     {
         "data": "18/06",
         "versiculo": "A sabedoria do humilde levantará a sua cabeça e o fará sentar-se no meio dos grandes. (Eclesiástico 11,1a)",
-        "texto": "Tive uma noite bem difícil, acordei algumas vezes assustada. Lembro-me de ter tido novamente aqueles pesadelos. De manhã, eu conversei com Isabel e partilhei com ela esses sonhos pesados que eu tive umas três vezes nestes últimos meses. Ela segurou minha mão, recitou um salmo e pediu para eu nunca esquecê-lo, pois no futuro essa oração me fortaleceria. The psalm is this: O Senhor é meu pastor, nada me faltará. Em verdes prados ele me faz repousar. Conduz-me junto às águas refrescantes, restaura as forças de minha alma. Pelos caminhos retos ele me leva, por amor do seu nome. Ainda que eu atravesse o vale escuro, nada temerei, pois estais comigo. Vosso bordão e vosso báculo são o meu amparo. Preparais para mim a mesa à vista de meus inimigos. Derramais o perfume sobre minha cabeça, e transborda minha taça. A vossa bondade e misericórdia hão de seguir-me por todos os dias de minha vida. E habitarei na casa do Senhor por longos dias. (Salmo 22)",
+        "texto": "Tive uma noite bem difícil, acordei algumas vezes assustada. Lembro-me de ter tido novamente aqueles pesadelos. De manhã, eu conversei com Isabel e partilhei com ela esses sonhos pesados que eu tive umas três vezes nestes últimos meses. Ela segurou minha mão, recitou um salmo e pediu para eu nunca esquecê-lo, pois no futuro essa oração me fortaleceria. O salmo é esse: O Senhor é meu pastor, nada me faltará. Em verdes prados ele me faz repousar. Conduz-me junto às águas refrescantes, restaura as forças de minha alma. Pelos caminhos retos ele me leva, por amor do seu nome. Ainda que eu atravesse o vale escuro, nada temerei, pois estais comigo. Vosso bordão e vosso báculo são o meu amparo. Preparais para mim a mesa à vista de meus inimigos. Derramais o perfume sobre minha cabeça, e transborda minha taça. A vossa bondade e misericórdia hão de seguir-me por todos os dias de minha vida. E habitarei na casa do Senhor por longos dias. (Salmo 22)",
         "reflexao": "Lembre-se: na vida não se caminha sozinho, partilhe seus medos e angústias. Alguém com toda certeza saberá orientá-lo."
     },
     {
@@ -579,7 +579,7 @@ const novena = [
         "data": "29/06",
         "versiculo": "Servi ao Senhor com respeito e exultai em sua presença; prestai-lhe homenagem com tremor, para que não se irrite e não pereçais quando, em breve, se acender sua cólera. Felizes, entretanto, todos os que nele confiam. (Salmo 2,22)",
         "texto": "Zacarias e José foram ao Templo. José me disse que depois das orações muita gente se reuniu em torno de Zacarias para cumprimentá-lo. Todos estavam maravilhados pela graça que ele havia recebido. Alguns inclusive disseram que fariam de tudo para estar presentes na circuncisão do menino. Eu fiquei em casa junto com Isabel, ela já está bem-disposta, bem recuperada das consequências naturais do parto, porém ainda está no quarto respeitando o tempo da purificação. O menino não está dando trabalho, dorme quase todo o tempo e chora muito pouco.",
-        "reflexao": "Nem sempre podemos cumprir nossas obrigações religiosas da forma como desejamos, mas cuidar de alguém que precisa pode be the best prayer we offer."
+        "reflexao": "Nem sempre podemos cumprir nossas obrigações religiosas da forma como desejamos, mas cuidar de alguém que precisa pode ser a melhor oração que fazemos."
     },
     {
         "data": "30/06",
@@ -818,7 +818,7 @@ const novena = [
     {
         "data": "08/08",
         "versiculo": "Levantai-vos, Senhor! Salvai-me, ó meu Deus! Feris no rosto todos os que me perseguem. (Salmo 3,8a)",
-        "texto": "Gosto muito da história de Ana. As palavras que eu cantei, no dia que cheguei à casa de Isabel, têm muito a ver com a prece que ela rezou. Ana era casada com Elcana. He had two wives, the other being Penina. Enquanto Penina tinha filhos, Ana era estéril. Todos os anos, quando Elcana e sua família iam peregrinar no templo de Deus em Siló, Penina provocava Ana, humilhando-a por causa da sua esterilidade. Ana viveu essa situação de amargura, tristeza e humilhação por anos, até o momento em que fez a promessa a Deus. O Senhor nos tira da humilhação e nos soergue. Neste tempo favorável, Deus tem olhado para a humanidade assim como olhou para Ana.",
+        "texto": "Gosto muito da história de Ana. As palavras que eu cantei, no dia que cheguei à casa de Isabel, têm muito a ver com a prece que ela rezou. Ana era casada com Elcana. Ele tinha duas mulheres, a outra era Penina. Enquanto Penina tinha filhos, Ana era estéril. Todos os anos, quando Elcana e sua família iam peregrinar no templo de Deus em Siló, Penina provocava Ana, humilhando-a por causa da sua esterilidade. Ana viveu essa situação de amargura, tristeza e humilhação por anos, até o momento em que fez a promessa a Deus. O Senhor nos tira da humilhação e nos soergue. Neste tempo favorável, Deus tem olhado para a humanidade assim como olhou para Ana.",
         "reflexao": "Quem nos provoca quer ver nossa reação, mas surpreenda: faça o que seu inimigo não esperava ver."
     },
     {
@@ -1196,7 +1196,7 @@ const novena = [
     {
         "data": "10/10",
         "versiculo": "A salvação está mais perto do que quando abraçamos a fé. (Romanos 13,11c)",
-        "texto": "No meio da manhã, o esposo da Lígia chegou e trouxe um presente para José e para mim: um burrinho que ele havia encontrado machucado na estrada. He said he felt that this little donkey would still be of great value to us. Como ele está machucado, Marta se encarregou de levá-lo para sua casa, pois lá tem um espaço muito grande onde eles recolhem as ovelhas. Marta também disse que se encarregaria de cuidar das feridas do pobre animalzinho. Depois da surpresa, fizemos o almoço e logo em seguida eles partiram. Lígia, na despedida, falou brincando que, apesar de ser muito cedo, ela já estava nos convidando para a festa de casamento de seu filho. Todos nós rimos.",
+        "texto": "No meio da manhã, o esposo da Lígia chegou e trouxe um presente para José e para mim: um burrinho que ele havia encontrado machucado na estrada. Ele disse ter sentido que aquele burrinho ainda seria de grande valia para nós. Como ele está machucado, Marta se encarregou de levá-lo para sua casa, pois lá tem um espaço muito grande onde eles recolhem as ovelhas. Marta também disse que se encarregaria de cuidar das feridas do pobre animalzinho. Depois da surpresa, fizemos o almoço e logo em seguida eles partiram. Lígia, na despedida, falou brincando que, apesar de ser muito cedo, ela já estava nos convidando para a festa de casamento de seu filho. Todos nós rimos.",
         "reflexao": "Uma casa repleta de amigos é uma casa cheia de felicidade."
     },
     {
