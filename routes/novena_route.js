@@ -8,8 +8,15 @@ router.get('/', async (req, res) => {
         day: '2-digit',
         month: '2-digit',
     });
+    var horaAtual = data.toLocaleDateString('pt-BR', {
+        hour: '2-digit',
+        minute: '2-digit',
+    });
 
     var titulo = `${dataAtual} - Nove meses com Maria`
+
+    console.log(dataAtual)
+    console.log(horaAtual)
 
     var novenaHoje = Novena9MesesController.getNovenaAtual(dataAtual);
     var oracao_gravidez_maria = Novena9MesesController.getOracao();

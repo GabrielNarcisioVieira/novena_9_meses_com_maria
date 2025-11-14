@@ -194,7 +194,7 @@ const novena = [
     {
         "data": "26/04",
         "versiculo": "Eu dormia, mas meu coração velava. (Cântico dos Cânticos 5,2)",
-        "texto": "Tive um sonho muito estranho esta noite, sonho não, foi um pesadelo. Sonhei com um homem carregando uma cruz e eu me via no sonho acompanhando o sofrimento daquele homem. Escutava as chicotadas e o grito de muita gente pedindo que ele fosse crucificado, ouvi também uma mulher cantando algo mais ou menos assim: Ó vós todos, que passais pelo caminho: olhai e julgai se existe dor igual à dor que me atormenta (Lamentações 1,12). Não comentei com ninguém o sonho, but passei o dia todo com o coração apertado.",
+        "texto": "Tive um sonho muito estranho esta noite, sonho não, foi um pesadelo. Sonhei com um homem carregando uma cruz e eu me via no sonho acompanhando o sofrimento daquele homem. Escutava as chicotadas e o grito de muita gente pedindo que ele fosse crucificado, ouvi também uma mulher cantando algo mais ou menos assim: Ó vós todos, que passais pelo caminho: olhai e julgai se existe dor igual à dor que me atormenta (Lamentações 1,12). Não comentei com ninguém o sonho, mas passei o dia todo com o coração apertado.",
         "reflexao": "Ninguém está livre dos sofrimentos. Mesmo na hora do sofrer, não deixe de crer, é a fé que te manterá de pé."
     },
     {
@@ -404,7 +404,7 @@ const novena = [
     {
         "data": "31/05",
         "versiculo": "Como Deus é grande, nosso Deus dos séculos eternos; é ele o nosso guia. (Salmo 47,15)",
-        "texto": "No meio da manhã passamos pelas proximidades de Jerusalém, but não paramos, pois desejávamos chegar o quanto antes à casa de Zacarias e Isabel. Eles vivem na cidade de Ain-Karin, que fica a uns seis quilômetros de Jerusalém. Zacarias é um homem já de bastante idade e dedica-se à função sacerdotal. Os dois são muito queridos e estimados por serem um testemunho fiel de serviço ao Senhor. Logo na entrada da cidade, estávamos um pouco perdidos e perguntamos a uma senhora onde ficava a casa de Zacarias. Ela se pôs a chorar e disse em alta voz: “O Senhor tem feito maravilhas, veja o milagre que realizou na vida desse casal”. Estávamos bem perto e enfim chegamos. Amanhã eu conto como foi o nosso encontro.",
+        "texto": "No meio da manhã passamos pelas proximidades de Jerusalém, mas não paramos, pois desejávamos chegar o quanto antes à casa de Zacarias e Isabel. Eles vivem na cidade de Ain-Karin, que fica a uns seis quilômetros de Jerusalém. Zacarias é um homem já de bastante idade e dedica-se à função sacerdotal. Os dois são muito queridos e estimados por serem um testemunho fiel de serviço ao Senhor. Logo na entrada da cidade, estávamos um pouco perdidos e perguntamos a uma senhora onde ficava a casa de Zacarias. Ela se pôs a chorar e disse em alta voz: “O Senhor tem feito maravilhas, veja o milagre que realizou na vida desse casal”. Estávamos bem perto e enfim chegamos. Amanhã eu conto como foi o nosso encontro.",
         "reflexao": "Chegar a um destino é cumprir uma meta; somente quem se desinstala conseguirá sentir essa alegria."
     },
     {
@@ -854,7 +854,7 @@ const novena = [
     {
         "data": "14/08",
         "versiculo": "Apenas me deito, logo adormeço em paz, porque a segurança de meu repouso vem de vós só, Senhor. (Salmo 4,9)",
-        "texto": "Antes de me deitar, novamente comecei a pensar e refletir nas muitas coisas que estão se realizando. Se fosse um fato isolado, talvez ficasse mais fácil interpretá-lo, porém tudo vai além de nossa razão. Nesta noite, fiz um propósito de tentar guardar no meu coração todas as coisas e fatos que eu não for capaz de compreender. Guardar no coração não será uma atitude de ser submissa, but de confiança. Quem sou eu para questionar os mistérios de Deus? Se eu tivesse dúvidas de que tudo provém dele, então eu me tornaria rebelde à sua vontade, porém eu não tenho; hoje eu posso dizer que não tenho dúvidas de que ele caminha comigo.",
+        "texto": "Antes de me deitar, novamente comecei a pensar e refletir nas muitas coisas que estão se realizando. Se fosse um fato isolado, talvez ficasse mais fácil interpretá-lo, porém tudo vai além de nossa razão. Nesta noite, fiz um propósito de tentar guardar no meu coração todas as coisas e fatos que eu não for capaz de compreender. Guardar no coração não será uma atitude de ser submissa, mas de confiança. Quem sou eu para questionar os mistérios de Deus? Se eu tivesse dúvidas de que tudo provém dele, então eu me tornaria rebelde à sua vontade, porém eu não tenho; hoje eu posso dizer que não tenho dúvidas de que ele caminha comigo.",
         "reflexao": "O questionamento muitas vezes não acalantará nossa alma, a confiança sim."
     },
     {
@@ -878,19 +878,19 @@ const novena = [
     {
         "data": "18/08",
         "versiculo": "Apartai-vos de mim, vós todos que praticais o mal, porque o Senhor atendeu às minhas lágrimas. (Salmo 6,9)",
-        "texto": "Zacarias voltou do Templo hoje, pois terminou o seu turno de trabalho. Ao chegar, ele nos informou que o rei Herodes da Judeia havia manifestado preocupação com a chegada do Messias. Zacarias ficou sabendo porque alguns de seus amigos sacerdotes foram consultados. Herodes chegou ao cargo não por vontade de nosso povo, but por ser braço direito dos romanos em nosso território. Zacarias falou que, pelo que tudo indica, Herodes tem medo de que a chegada do Messias possa prejudicar seu reinado. Confesso que fiquei bastante apreensiva com essa informação.",
+        "texto": "Zacarias voltou do Templo hoje, pois terminou o seu turno de trabalho. Ao chegar, ele nos informou que o rei Herodes da Judeia havia manifestado preocupação com a chegada do Messias. Zacarias ficou sabendo porque alguns de seus amigos sacerdotes foram consultados. Herodes chegou ao cargo não por vontade de nosso povo, mas por ser braço direito dos romanos em nosso território. Zacarias falou que, pelo que tudo indica, Herodes tem medo de que a chegada do Messias possa prejudicar seu reinado. Confesso que fiquei bastante apreensiva com essa informação.",
         "reflexao": "Poderes malignos sempre estarão à nossa volta, precisamos nos armar com os dons do Espírito."
     },
     {
         "data": "19/08",
         "versiculo": "De amargura meus olhos se turvam, esmorecem por causa dos que me oprimem. (Salmo 6,8)",
         "texto": "Nosso reino está dominado pelo Império Romano. Temos certa liberdade, porém ela nos custa caro. O império não proibiu a adoração e devoção ao nosso Deus, como fez em outras regiões dominadas, mas somos obrigados a pagar altos impostos. Nossa liberdade é comprada: alguns de nossos líderes religiosos se aliaram ao império para receber privilégios, em troca de manipular e tentar calar nosso povo. Herodes é um homem violento. Já ouvi muitas histórias de suas atrocidades. Mas que perigo o menino que eu carrego pode trazer a esse homem tão poderoso?",
-        "reflexao": "Ninguém está livre de enfrentar os perigos da vida, but o Senhor envia sinais para nos precavermos."
+        "reflexao": "Ninguém está livre de enfrentar os perigos da vida, mas o Senhor envia sinais para nos precavermos."
     },
     {
         "data": "20/08",
         "versiculo": "Eu me esgoto gemendo; todas as noites banho de pranto minha cama, com lágrimas inundo o meu leito. (Salmo 6,7)",
-        "texto": "Mais uma vez meu coração de mãe teve um péssimo pressentimento; enquanto eu dormia, vi um verdadeiro massacre. Não consigo explicar direito, but parecia crianças sendo assassinadas; uma cena lastimável e horrível. Mais uma vez, guardei o sonho comigo, pois não tive coragem de partilhá-lo com ninguém. Se o Senhor quiser me dizer alguma coisa com esses acontecimentos, então no tempo oportuno eu saberei compreender sua mensagem. Começo a acreditar que a missão de ser a mãe de Jesus não seja somente trazê-lo ao mundo; minha missão talvez vá além.",
+        "texto": "Mais uma vez meu coração de mãe teve um péssimo pressentimento; enquanto eu dormia, vi um verdadeiro massacre. Não consigo explicar direito, mas parecia crianças sendo assassinadas; uma cena lastimável e horrível. Mais uma vez, guardei o sonho comigo, pois não tive coragem de partilhá-lo com ninguém. Se o Senhor quiser me dizer alguma coisa com esses acontecimentos, então no tempo oportuno eu saberei compreender sua mensagem. Começo a acreditar que a missão de ser a mãe de Jesus não seja somente trazê-lo ao mundo; minha missão talvez vá além.",
         "reflexao": "Mantenha sua alma vigilante diante dos conselhos que seu coração lhe envia."
     },
     {
@@ -902,7 +902,7 @@ const novena = [
     {
         "data": "22/08",
         "versiculo": "Entretanto, o Senhor habita em seu templo, o Senhor tem seu trono no céu. Sua vista está atenta, seus olhares observam os filhos dos homens. (Salmo 10,4)",
-        "texto": "Conversei com José e decidimos partir no primeiro dia da semana, ou seja, daqui a três dias. Depois que decidimos, comunicamos a Zacarias e Isabel, que ficaram bastante tristes. But eles compreenderam que nós temos que tocar nossa vida, uma vez que José tem um trabalho em Nazaré. Porém, combinamos que todos os anos nós viremos para a celebração da Páscoa, assim não perderemos o contato. Além disso, daremos a oportunidade de João e Jesus serem bons amigos desde cedo.",
+        "texto": "Conversei com José e decidimos partir no primeiro dia da semana, ou seja, daqui a três dias. Depois que decidimos, comunicamos a Zacarias e Isabel, que ficaram bastante tristes. Mas eles compreenderam que nós temos que tocar nossa vida, uma vez que José tem um trabalho em Nazaré. Porém, combinamos que todos os anos nós viremos para a celebração da Páscoa, assim não perderemos o contato. Além disso, daremos a oportunidade de João e Jesus serem bons amigos desde cedo.",
         "reflexao": "Procure tomar as decisões importantes em conjunto; não queira ser o dono da verdade."
     },
     {
@@ -914,13 +914,13 @@ const novena = [
     {
         "data": "24/08",
         "versiculo": "A experiência consumada é a coroa dos anciãos; o temor de Deus é a sua glória. (Eclesiástico 25,4)",
-        "texto": "Fizemos as orações como de costume no Templo. Depois, partilhei com Isabel o receio do meu retorno, pois assim que fui morar na casa de José alguns no povoado não me aceitaram. But isso já faz algum tempo, e as coisas mudam. Acredito que as pessoas também, desde que elas queiram, é claro. Isabel disse que nunca contentaremos todo mundo, nossa meta é contentar a Deus, e a perseguição às vezes é prêmio. Fomos dormir mais cedo hoje, pois teremos uma longa viagem pela frente.",
+        "texto": "Fizemos as orações como de costume no Templo. Depois, partilhei com Isabel o receio do meu retorno, pois assim que fui morar na casa de José alguns no povoado não me aceitaram. Mas isso já faz algum tempo, e as coisas mudam. Acredito que as pessoas também, desde que elas queiram, é claro. Isabel disse que nunca contentaremos todo mundo, nossa meta é contentar a Deus, e a perseguição às vezes é prêmio. Fomos dormir mais cedo hoje, pois teremos uma longa viagem pela frente.",
         "reflexao": "Dê ouvidos a quem lhe quer bem, não perca tempo ou seu sono preocupado com as impressões de seus inimigos sobre você."
     },
     {
         "data": "25/08",
         "versiculo": "Responde, porém, o Senhor: “Por causa da aflição dos humildes e dos gemidos dos pobres, levantar-me-ei para lhes dar a salvação que desejam”. (Salmo 11,6)",
-        "texto": "Levantamos bem cedo e nos despedimos de Zacarias, Isabel e João. Com a promessa de voltarmos para a festa da Páscoa, seguimos nosso caminho. O sol começava a despontar no céu. Quando estávamos atravessando Jerusalém, na saída da cidade, vi no alto de um monte quatro homens crucificados. Meu coração acelerou. Perguntei-me sobre o porquê de tamanha brutalidade. Foi uma cena que nunca conseguirei esquecer. José tentou me distrair na viagem, but meu coração se manteve apertado durante todo o percurso. Ao anoitecer, fizemos uma tenda para podermos dormir.",
+        "texto": "Levantamos bem cedo e nos despedimos de Zacarias, Isabel e João. Com a promessa de voltarmos para a festa da Páscoa, seguimos nosso caminho. O sol começava a despontar no céu. Quando estávamos atravessando Jerusalém, na saída da cidade, vi no alto de um monte quatro homens crucificados. Meu coração acelerou. Perguntei-me sobre o porquê de tamanha brutalidade. Foi uma cena que nunca conseguirei esquecer. José tentou me distrair na viagem, mas meu coração se manteve apertado durante todo o percurso. Ao anoitecer, fizemos uma tenda para podermos dormir.",
         "reflexao": "A dor nos ronda; não podemos viver em uma redoma de vidro. Enfrente-a."
     },
     {
@@ -931,7 +931,7 @@ const novena = [
     },
     {
         "data": "27/08",
-        "versiculo": "Passado o tremor de terra, acendeu-se um fogo; but o Senhor não estava no fogo. Depois do fogo ouviu-se o murmúrio de uma brisa ligeira. (1Reis 19,12)",
+        "versiculo": "Passado o tremor de terra, acendeu-se um fogo; mas o Senhor não estava no fogo. Depois do fogo ouviu-se o murmúrio de uma brisa ligeira. (1Reis 19,12)",
         "texto": "Na Samaria enfrentamos um forte sol. Caminhar por essas montanhas não é fácil. José é superpaciencioso, sempre cuidando para que eu não resvale em alguma pedra. Decidimos parar na sombra de uma árvore, pois comecei a sentir um pouco de dor de cabeça. Sentimos uma brisa gostosa, respirei fundo como que desejando renovar-me interiormente com o ar fresco. Creio que Jesus está gostando da viagem, pois ele não para de se agitar em minha barriga.",
         "reflexao": "Não deixe de sentir a simplicidade da natureza, que pode convencê-lo de que você está vivo."
     },
@@ -955,14 +955,14 @@ const novena = [
     },
     {
         "data": "31/08",
-        "versiculo": "Há muitos planos no coração do homem, but é a vontade do Senhor que se realiza. (Provérbios 19,21)",
+        "versiculo": "Há muitos planos no coração do homem, mas é a vontade do Senhor que se realiza. (Provérbios 19,21)",
         "texto": "Mesmo cansados, fomos à sinagoga celebrar o sábado. Eu louvei a Deus pela linda experiência que passei nesses dias na casa de Isabel e Zacarias. Ficamos quase três meses, um longo tempo que guardarei para sempre comigo. Na viagem pude perceber melhor a grandiosidade do projeto de Deus, e é por isso, por essa razão, que hoje estou aqui para agradecer e bendizer ao meu Senhor, que tem sido tão generoso para comigo. Depois da reunião voltamos para casa e descansamos bastante. Eu coloquei meus pés para cima para desinchar um pouco.",
         "reflexao": "Não deixe de avaliar tudo o que você faz. A resposta do sucesso futuro depende de uma visão crítica hoje."
     },
     {
         "data": "01/09",
         "versiculo": "O Senhor é o meu rochedo, minha fortaleza e meu libertador. (2Samuel 22,2)",
-        "texto": "Estamos voltando ao ritmo normal. Apesar de Marta ter mantido a casa limpa, tem uma série de coisas que preciso organizar. José foi fazer compras e rever alguns amigos. Já estou bem descansada. Fiquei um pouco queimada do sol e, se não fosse o véu que ganhei de Isabel, creio que estaria pior. Ontem, na sinagoga, percebi que minha situação com José parece ter caído no esquecimento. As mulheres que viravam o rosto para mim não me trataram com amizade, but também não me repudiaram. O tempo é terapêutico, se encarrega de curar.",
+        "texto": "Estamos voltando ao ritmo normal. Apesar de Marta ter mantido a casa limpa, tem uma série de coisas que preciso organizar. José foi fazer compras e rever alguns amigos. Já estou bem descansada. Fiquei um pouco queimada do sol e, se não fosse o véu que ganhei de Isabel, creio que estaria pior. Ontem, na sinagoga, percebi que minha situação com José parece ter caído no esquecimento. As mulheres que viravam o rosto para mim não me trataram com amizade, mas também não me repudiaram. O tempo é terapêutico, se encarrega de curar.",
         "reflexao": "Você já foi curado pelo tempo, por isso respeite o tempo dos demais."
     },
     {
@@ -974,7 +974,7 @@ const novena = [
     {
         "data": "03/09",
         "versiculo": "Tenho diante dos olhos todos os seus preceitos e não me desvio de suas leis. (2Samuel 22,23)",
-        "texto": "Quando José me procurou dizendo que assumiria a responsabilidade de ser o pai adotivo de Jesus, eu fiquei preocupada que esse episódio pudesse mudar negativamente sua vida. Meu receio era que ele tivesse dito “sim” por ter pena de mim e da criança, além disso, meu grande receio era a infelicidade de José. Como sabemos, não existe coisa pior do que termos de fazer algo que não seja do nosso gosto. But o tempo foi me mostrando que Jesus também está enchendo de alegria a vida de José; ele está feliz, faz planos, pensa no futuro. Meu coração se alegra vendo o entusiasmo e a felicidade de José.",
+        "texto": "Quando José me procurou dizendo que assumiria a responsabilidade de ser o pai adotivo de Jesus, eu fiquei preocupada que esse episódio pudesse mudar negativamente sua vida. Meu receio era que ele tivesse dito “sim” por ter pena de mim e da criança, além disso, meu grande receio era a infelicidade de José. Como sabemos, não existe coisa pior do que termos de fazer algo que não seja do nosso gosto. Mas o tempo foi me mostrando que Jesus também está enchendo de alegria a vida de José; ele está feliz, faz planos, pensa no futuro. Meu coração se alegra vendo o entusiasmo e a felicidade de José.",
         "reflexao": "As pessoas que vivem a sua volta estão felizes?"
     },
     {
@@ -985,9 +985,9 @@ const novena = [
     },
     {
         "data": "05/09",
-        "versiculo": "Investiram contra mim no dia do meu infortúnio, but o Senhor foi o meu arrimo, pôs-me a salvo e livrou-me, porque me ama. (2Samuel 22,19-20)",
-        "texto": "Hoje José lembrou-me mais um trecho da escritura sobre o temor de Deus: Aquele que teme ao Senhor achar-se-á confortado, no dia da morte será abençoado. O temor ao Senhor é a plenitude da sabedoria, a plenitude de seus frutos, (para aquele que a possui) ela enche toda a sua casa com os bens que produz e seus celeiros com seus tesouros. O temor do Senhor é a coroa da sabedoria: dá uma plenitude de paz e de frutos de salvação. Ele a viu e numerou-a; ora, uma e outra são um dom de Deus. A sabedoria distribui a ciência e a prudente inteligência; eleva à glória aqueles que a possuem. O temor do Senhor é a raiz da sabedoria, seus ramos são de longa duração. A inteligência e a religião da ciência se acham nos tesouros da sabedoria, but a sabedoria é abominada pelos pecadores. O temor do Senhor expulsa o pecado, pois aquele que não tem esse temor não poderá tornar-se justo. A violência de sua paixão causará sua ruína. O homem paciente esperará até um determinado tempo, após o qual a alegria lhe será restituída. (Eclesiástico 1,19-29)",
-        "reflexao": "Temer a Deus não é ter medo dele, but respeito."
+        "versiculo": "Investiram contra mim no dia do meu infortúnio, mas o Senhor foi o meu arrimo, pôs-me a salvo e livrou-me, porque me ama. (2Samuel 22,19-20)",
+        "texto": "Hoje José lembrou-me mais um trecho da escritura sobre o temor de Deus: Aquele que teme ao Senhor achar-se-á confortado, no dia da morte será abençoado. O temor ao Senhor é a plenitude da sabedoria, a plenitude de seus frutos, (para aquele que a possui) ela enche toda a sua casa com os bens que produz e seus celeiros com seus tesouros. O temor do Senhor é a coroa da sabedoria: dá uma plenitude de paz e de frutos de salvação. Ele a viu e numerou-a; ora, uma e outra são um dom de Deus. A sabedoria distribui a ciência e a prudente inteligência; eleva à glória aqueles que a possuem. O temor do Senhor é a raiz da sabedoria, seus ramos são de longa duração. A inteligência e a religião da ciência se acham nos tesouros da sabedoria, mas a sabedoria é abominada pelos pecadores. O temor do Senhor expulsa o pecado, pois aquele que não tem esse temor não poderá tornar-se justo. A violência de sua paixão causará sua ruína. O homem paciente esperará até um determinado tempo, após o qual a alegria lhe será restituída. (Eclesiástico 1,19-29)",
+        "reflexao": "Temer a Deus não é ter medo dele, mas respeito."
     },
     {
         "data": "06/09",
@@ -1004,13 +1004,13 @@ const novena = [
     {
         "data": "08/09",
         "versiculo": "Os caminhos de Deus são perfeitos; a palavra do Senhor é pura. Ele é o escudo de todos os que nele se refugiam. (2Samuel 22,31)",
-        "texto": "Hoje é meu aniversário. Eu tinha me esquecido, but José me acordou e me presenteou com uma flor, depois rezou, agradecendo a Deus por minha vida. Na hora do almoço, contei a ele que minha mãe e meu pai escreveram em um pedacinho de pergaminho uma passagem do profeta Isaías. Eles me presentearam esse escrito quando me levaram ao Templo. Tenho essa relíquia guardada comigo até hoje. José disse que queria saber o que meus pais haviam escrito, e prometi que depois mostraria para ele. Marta também veio em casa festejar, e passamos bons momentos juntas.",
+        "texto": "Hoje é meu aniversário. Eu tinha me esquecido, mas José me acordou e me presenteou com uma flor, depois rezou, agradecendo a Deus por minha vida. Na hora do almoço, contei a ele que minha mãe e meu pai escreveram em um pedacinho de pergaminho uma passagem do profeta Isaías. Eles me presentearam esse escrito quando me levaram ao Templo. Tenho essa relíquia guardada comigo até hoje. José disse que queria saber o que meus pais haviam escrito, e prometi que depois mostraria para ele. Marta também veio em casa festejar, e passamos bons momentos juntas.",
         "reflexao": "Sua vida é uma dádiva, não menospreze sua existência."
     },
     {
         "data": "09/09",
         "versiculo": "Ele prepara grandes vitórias a seu rei e faz misericórdia a seu ungido. A Davi e a sua descendência para sempre. (2Samuel 22,51)",
-        "texto": "No pequeno pergaminho estava escrito: Dizei àqueles que têm o coração perturbado: “Tomai ânimo, não temais! Eis o vosso Deus! Ele vem executar a vingança. Eis que chega a retribuição de Deus: ele mesmo vem salvar-vos”. Então se abrirão os olhos do cego. E se desimpedirão os ouvidos dos surdos; então o coxo saltará como um cervo, e a língua do mudo dará gritos alegres. Porque águas jorrarão no deserto, e torrentes, na estepe. A terra queimada se converterá num lago, e a região da sede, em fontes. No covil dos chacais crescerão caniços e papiros. E haverá uma vereda pura, que se chamará o caminho santo; nenhum ser impuro passará por ele, e os insensatos não rondarão por ali. Nele não se encontrará leão, nenhum animal feroz transitará por ele; but por ali caminharão os remidos, por ali voltarão aqueles que o Senhor tiver libertado. Eles chegarão a Sião com cânticos de triunfo, e uma alegria eterna coroará sua cabeça; a alegria e o gozo possuí-los-ão; a tristeza e os queixumes fugirão. (Isaías 35,4-10)",
+        "texto": "No pequeno pergaminho estava escrito: Dizei àqueles que têm o coração perturbado: “Tomai ânimo, não temais! Eis o vosso Deus! Ele vem executar a vingança. Eis que chega a retribuição de Deus: ele mesmo vem salvar-vos”. Então se abrirão os olhos do cego. E se desimpedirão os ouvidos dos surdos; então o coxo saltará como um cervo, e a língua do mudo dará gritos alegres. Porque águas jorrarão no deserto, e torrentes, na estepe. A terra queimada se converterá num lago, e a região da sede, em fontes. No covil dos chacais crescerão caniços e papiros. E haverá uma vereda pura, que se chamará o caminho santo; nenhum ser impuro passará por ele, e os insensatos não rondarão por ali. Nele não se encontrará leão, nenhum animal feroz transitará por ele; mas por ali caminharão os remidos, por ali voltarão aqueles que o Senhor tiver libertado. Eles chegarão a Sião com cânticos de triunfo, e uma alegria eterna coroará sua cabeça; a alegria e o gozo possuí-los-ão; a tristeza e os queixumes fugirão. (Isaías 35,4-10)",
         "reflexao": "O apóstolo diz: “Se Deus é por nós, quem será contra nós?”. Confie nisso e não temas."
     },
     {
@@ -1022,14 +1022,14 @@ const novena = [
     {
         "data": "11/09",
         "versiculo": "Viva o Senhor e bendito seja o meu rochedo! Exaltado seja Deus, rocha que me salva! (2Samuel 22,47)",
-        "texto": "Jesus continua crescendo dentro de mim, minha barriga já está bem grande. Muitas vezes fico pensando em toda essa história – da visita do anjo, da minha gravidez, da minha vida com José, da visita que fizemos a Isabel – e tudo parece um sonho, que não é verdade. But é somente olhar para meu ventre para perceber que não estou sonhando, que é realidade, é a verdade de Deus sobre mim. A sensação é estranha, difícil de explicar com palavras. Ainda ontem eu era uma menina, e hoje minha vida mudou por completo. Esse futuro não estava em meus planos, but agora é minha razão de viver.",
+        "texto": "Jesus continua crescendo dentro de mim, minha barriga já está bem grande. Muitas vezes fico pensando em toda essa história – da visita do anjo, da minha gravidez, da minha vida com José, da visita que fizemos a Isabel – e tudo parece um sonho, que não é verdade. Mas é somente olhar para meu ventre para perceber que não estou sonhando, que é realidade, é a verdade de Deus sobre mim. A sensação é estranha, difícil de explicar com palavras. Ainda ontem eu era uma menina, e hoje minha vida mudou por completo. Esse futuro não estava em meus planos, mas agora é minha razão de viver.",
         "reflexao": "Quando faltarem palavras, tente deixar que o silêncio fale."
     },
     {
         "data": "12/09",
         "versiculo": "Alegrar-te-ás nos teus filhos, porque serão todos abençoados, e se reunirão junto do Senhor. (Tobias 13,17)",
         "texto": "Hoje fomos cear na casa de Marta. Seu marido e seus filhos chegaram do trabalho e nos convidaram para estar com eles. Tive satisfação em ver a alegria de Marta com os seus. Ela preparou um verdadeiro banquete para nós. Depois os homens ficaram conversando, e os filhos dela contaram algumas experiências que tiveram no pastoreio. Marta e eu ficamos na cozinha organizando as coisas e preparando um chá para servir mais à noite. Enquanto isso, falávamos sobre os perigos que eles enfrentam nesse trabalho. Marta confessou que seu coração sempre fica aflito, ela só sente repouso quando eles chegam.",
-        "reflexao": "Tudo na vida apresenta perigo, devemos ter prudência, but nunca deixar que o medo nos aprisione."
+        "reflexao": "Tudo na vida apresenta perigo, devemos ter prudência, mas nunca deixar que o medo nos aprisione."
     },
     {
         "data": "13/09",
@@ -1040,7 +1040,7 @@ const novena = [
     {
         "data": "14/09",
         "versiculo": "Na minha angústia, invoquei ao Senhor, gritei para meu Deus: do seu templo ele ouviu a minha voz, e o meu clamor chegou aos seus ouvidos. (2Samuel 22,7)",
-        "texto": "Acordei assustada, novamente tive aqueles pesadelos de sofrimento. Desta vez as imagens que perseguiram meu sonho foram dos crucificados que vimos durante a viagem. Talvez eu esteja muito sensível por causa da gravidez, but sei que não é só isso. Fico pensando na dor das mães ao receberem o corpo dos filhos. Assim que acordei, fiz uma prece por todas as mães que sofrem com a perda de seus filhos. Lembrei-me inclusive daquela senhora que conheci enquanto lavava roupa.",
+        "texto": "Acordei assustada, novamente tive aqueles pesadelos de sofrimento. Desta vez as imagens que perseguiram meu sonho foram dos crucificados que vimos durante a viagem. Talvez eu esteja muito sensível por causa da gravidez, mas sei que não é só isso. Fico pensando na dor das mães ao receberem o corpo dos filhos. Assim que acordei, fiz uma prece por todas as mães que sofrem com a perda de seus filhos. Lembrei-me inclusive daquela senhora que conheci enquanto lavava roupa.",
         "reflexao": "Reze hoje por uma mãe que você conheça que tenha perdido um filho."
     },
     {
@@ -1052,7 +1052,7 @@ const novena = [
     {
         "data": "16/09",
         "versiculo": "Ditosos todos os que te amam: na tua paz encontrarão sua alegria. (Tobias 13,18)",
-        "texto": "Antes de ir trabalhar, José fez sobre mim esta prece: De todo o coração eu vos louvarei, ó Senhor, meu Deus, e glorificarei o vosso nome eternamente. Porque vossa misericórdia foi grande para comigo, arrancastes minha alma das profundezas da região dos mortos. Ó Deus, os soberbos se levantaram contra mim, uma turba de prepotentes odeia a minha vida, eles que nem vos têm presente antes os olhos. But vós, Senhor, sois um Deus bondoso e compassivo; lento para a ira, cheio de clemência e fidelidade. Olhai-me e tende piedade de mim, dai ao vosso servo a vossa força, salvai o filho de vossa escrava. Dai-me uma prova de vosso favor, a fim de que verifiquem meus inimigos, para sua confusão, que sois vós, Senhor, meu sustento e meu consolo. (Salmo 85,12-17)",
+        "texto": "Antes de ir trabalhar, José fez sobre mim esta prece: De todo o coração eu vos louvarei, ó Senhor, meu Deus, e glorificarei o vosso nome eternamente. Porque vossa misericórdia foi grande para comigo, arrancastes minha alma das profundezas da região dos mortos. Ó Deus, os soberbos se levantaram contra mim, uma turba de prepotentes odeia a minha vida, eles que nem vos têm presente antes os olhos. Mas vós, Senhor, sois um Deus bondoso e compassivo; lento para a ira, cheio de clemência e fidelidade. Olhai-me e tende piedade de mim, dai ao vosso servo a vossa força, salvai o filho de vossa escrava. Dai-me uma prova de vosso favor, a fim de que verifiquem meus inimigos, para sua confusão, que sois vós, Senhor, meu sustento e meu consolo. (Salmo 85,12-17)",
         "reflexao": "Não se canse de pedir para que as pessoas rezem por você."
     },
     {
@@ -1070,8 +1070,8 @@ const novena = [
     {
         "data": "19/09",
         "versiculo": "Meus dias passam mais depressa do que a lançadeira, e se desvanecem sem deixar esperança. (Jó 7,6)",
-        "texto": "Fomos novamente visitar e auxiliar a senhora idosa e sozinha. Hoje ela falou pouco. Percebi que está mais debilitada que ontem. Demos um banho nela e novamente a alimentamos. No final da tarde, enquanto Marta e eu rezávamos, ela, segurando minha mão, partiu deste mundo. Morreu em uma paz serena. Lembrei-me de que ontem ela havia me dito: sou sozinha, but não sou solitária, Deus foi sempre minha companhia. Organizamos um grupo de pessoas da comunidade para preparar o sepultamento.",
-        "reflexao": "A morte nunca será querida por nós, but ela pode ser uma grande conselheira."
+        "texto": "Fomos novamente visitar e auxiliar a senhora idosa e sozinha. Hoje ela falou pouco. Percebi que está mais debilitada que ontem. Demos um banho nela e novamente a alimentamos. No final da tarde, enquanto Marta e eu rezávamos, ela, segurando minha mão, partiu deste mundo. Morreu em uma paz serena. Lembrei-me de que ontem ela havia me dito: sou sozinha, mas não sou solitária, Deus foi sempre minha companhia. Organizamos um grupo de pessoas da comunidade para preparar o sepultamento.",
+        "reflexao": "A morte nunca será querida por nós, mas ela pode ser uma grande conselheira."
     },
     {
         "data": "20/09",
@@ -1082,7 +1082,7 @@ const novena = [
     {
         "data": "21/09",
         "versiculo": "Se recorreres a Deus e implorares ao Todo-poderoso, se fores puro e reto, ele atenderá a tua oração e restaurará a morada de tua justiça. (Jó 7,5-6)",
-        "texto": "Hoje é sábado. Como de costume, fomos à sinagoga e fizemos nossas orações em casa. Enquanto orávamos, lembrei-me da senhora que enterramos ontem. A morte dela me fez pensar na fragilidade que é a nossa vida. Talvez o que consideramos de extrema necessidade hoje, amanhã caia no esquecimento. O livro de Eclesiastes me faz perceber esta verdade, de que vivemos mergulhados em uma vaidade infinita. But o que de fato importa na vida? O que fará a diferença em nosso viver? São perguntas que a reflexão me suscita.",
+        "texto": "Hoje é sábado. Como de costume, fomos à sinagoga e fizemos nossas orações em casa. Enquanto orávamos, lembrei-me da senhora que enterramos ontem. A morte dela me fez pensar na fragilidade que é a nossa vida. Talvez o que consideramos de extrema necessidade hoje, amanhã caia no esquecimento. O livro de Eclesiastes me faz perceber esta verdade, de que vivemos mergulhados em uma vaidade infinita. Mas o que de fato importa na vida? O que fará a diferença em nosso viver? São perguntas que a reflexão me suscita.",
         "reflexao": "Os sonhos de hoje podem tornar-se pesadelos no futuro."
     },
     {
@@ -1130,12 +1130,12 @@ const novena = [
     {
         "data": "29/09",
         "versiculo": "O anjo do Senhor acampa em redor dos que o temem, e os salva. (Salmo 33,8)",
-        "texto": "Lembrei-me da fisionomia de luz do anjo que anunciou a chegada de Jesus. Era Gabriel, o mesmo anjo que apareceu a Zacarias anunciando também o milagre da vida de João. Os anjos são os mensageiros de Deus – imagino a responsabilidade de um ser que tem a missão de transmitir a voz de Deus. Fico pensando que muitas vezes somos nós os convocados pelo Senhor para dar testemunho e anunciar sua mensagem. Não podemos nos calar. Venho percebendo cada vez mais que o Senhor deseja que falemos, não tanto com palavras, but com a vida, sobre sua bondade.",
+        "texto": "Lembrei-me da fisionomia de luz do anjo que anunciou a chegada de Jesus. Era Gabriel, o mesmo anjo que apareceu a Zacarias anunciando também o milagre da vida de João. Os anjos são os mensageiros de Deus – imagino a responsabilidade de um ser que tem a missão de transmitir a voz de Deus. Fico pensando que muitas vezes somos nós os convocados pelo Senhor para dar testemunho e anunciar sua mensagem. Não podemos nos calar. Venho percebendo cada vez mais que o Senhor deseja que falemos, não tanto com palavras, mas com a vida, sobre sua bondade.",
         "reflexao": "Anjos estão à nossa volta; seja você um anjo para alguém hoje."
     },
     {
         "data": "30/09",
-        "versiculo": "Os poderosos empobrecem e passam fome, but aos que buscam o Senhor nada lhes falta. (Salmo 33,11)",
+        "versiculo": "Os poderosos empobrecem e passam fome, mas aos que buscam o Senhor nada lhes falta. (Salmo 33,11)",
         "texto": "Marta e eu nos juntamos para preparar pães. Desta vez eu fui à casa dela, assim pude me distrair um pouco. Eu estava precisando exercitar minhas pernas, que continuam inchadas. A leve caminhada ajudou na circulação. José veio fazer as refeições aqui conosco. Marta e eu, como de costume, conversamos e rezamos, enquanto fazíamos os pães. Tentamos fazer uma receita nova, porém creio que não deu muito certo. No final das contas rimos muito: a massa não cresceu. Talvez a receita estivesse errada ou fomos nós que erramos em algum ingrediente.",
         "reflexao": "Quando alguma coisa der errada, seja sábio: ria de si mesmo, não se cobre tanto."
     },
@@ -1190,7 +1190,7 @@ const novena = [
     {
         "data": "09/10",
         "versiculo": "Já é hora de despertardes do sono. (Romanos 13,11b)",
-        "texto": "O marido de Lígia só poderá vir buscá-la amanhã. Sabendo que a esposa estava em boas mãos, Pedro partiu despreocupado. Passamos o dia falando de maternidade e do dom de ser mãe. Tenho aprendido muitas coisas com Lígia e Marta. Talvez a maior descoberta que venho fazendo depois que engravidei é a constatação de que a mãe já não vive para si, but tudo gira em torno do fruto que concebeu. Parece que existe um aniquilamento do nosso coração.",
+        "texto": "O marido de Lígia só poderá vir buscá-la amanhã. Sabendo que a esposa estava em boas mãos, Pedro partiu despreocupado. Passamos o dia falando de maternidade e do dom de ser mãe. Tenho aprendido muitas coisas com Lígia e Marta. Talvez a maior descoberta que venho fazendo depois que engravidei é a constatação de que a mãe já não vive para si, mas tudo gira em torno do fruto que concebeu. Parece que existe um aniquilamento do nosso coração.",
         "reflexao": "O que às vezes parece um contratempo pode se tornar um grande presente da vida."
     },
     {
@@ -1574,7 +1574,7 @@ const novena = [
     {
         "data": "12/12",
         "versiculo": "No princípio era o Verbo, e o Verbo estava junto de Deus e o Verbo era Deus. Ele estava no princípio junto de Deus. Tudo foi feito por ele, e sem ele nada foi feito. Nele havia a vida, e a vida era a luz dos homens. (João 1,1-4)",
-        "texto": "Tivemos um dia bem difícil, enfrentamos uma região muito seca, quase sem vegetação. O sol mais uma vez nos castigou muito. As dores em minha coluna aumentaram muito. Tentei disfarçar para poupar José, mas ele percebeu e sugeriu que novamente parássemos para descansar o resto do dia. Minha preocupação é que essas paradas façam a viagem se prolongar, but eu sei que não posso abusar. A melhor coisa a fazer é não forçar e caminhar no ritmo que nossas forças aguentam.",
+        "texto": "Tivemos um dia bem difícil, enfrentamos uma região muito seca, quase sem vegetação. O sol mais uma vez nos castigou muito. As dores em minha coluna aumentaram muito. Tentei disfarçar para poupar José, mas ele percebeu e sugeriu que novamente parássemos para descansar o resto do dia. Minha preocupação é que essas paradas façam a viagem se prolongar, mas eu sei que não posso abusar. A melhor coisa a fazer é não forçar e caminhar no ritmo que nossas forças aguentam.",
         "reflexao": "Respeitar nosso ritmo é saber prolongar nossa vida."
     },
     {
@@ -1605,7 +1605,7 @@ const novena = [
         "data": "17/12",
         "versiculo": "Mudou o deserto em lençol de água, e a terra árida em abundantes fontes. (Salmo 106,35)",
         "texto": "No final da tarde, depois de muito caminharmos pelo deserto escaldante, chegamos a Efraim. José resolveu passar por aqui para podermos descansar um pouco. Encontramos uma pousada e ali ficamos. O deserto parece que sugou de nós todas as energias que guardávamos. Nada melhor que um bom banho, uma alimentação consistente e uma boa noite de sono para nos revigorar. Fomos dormir bem cedo, quase não tivemos tempo para conversar, pois foi o tempo de deitar para adormecermos.",
-        "reflexao": "Na caminhada da vida entramos em muitos lugares para reclinarmos a cabeça, but se quisermos continuar vivendo temos que dar continuidade à nossa peregrinação."
+        "reflexao": "Na caminhada da vida entramos em muitos lugares para reclinarmos a cabeça, mas se quisermos continuar vivendo temos que dar continuidade à nossa peregrinação."
     },
     {
         "data": "18/12",
@@ -1616,7 +1616,7 @@ const novena = [
     {
         "data": "19/12",
         "versiculo": "Levanta-te e come, porque tens um longo caminho a percorrer. (1Reis 19,7b)",
-        "texto": "Hoje conseguimos adiantar bastante nossa trajetória. Tive ainda algumas contrações, but resisti com força, pois sabia que não podíamos perder tempo. Pobre José, ele deve estar exausto. Eu bem sei que, quando caminhamos em nosso ritmo normal, não nos cansamos tanto; porém, quando temos que andar contando os passos, o esgotamento físico é maior. Ele está com o rosto todo queimado, seus pés também estão cheios de bolhas. Apesar de todo esse sofrimento, ele só pensa em meu bem-estar.",
+        "texto": "Hoje conseguimos adiantar bastante nossa trajetória. Tive ainda algumas contrações, mas resisti com força, pois sabia que não podíamos perder tempo. Pobre José, ele deve estar exausto. Eu bem sei que, quando caminhamos em nosso ritmo normal, não nos cansamos tanto; porém, quando temos que andar contando os passos, o esgotamento físico é maior. Ele está com o rosto todo queimado, seus pés também estão cheios de bolhas. Apesar de todo esse sofrimento, ele só pensa em meu bem-estar.",
         "reflexao": "Esteja ao lado de quem precisa de você. O esgotamento pelo serviço prestado se transforma em alegria de ter sido útil."
     },
     {
