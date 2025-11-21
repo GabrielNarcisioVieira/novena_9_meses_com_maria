@@ -7,10 +7,12 @@ router.get('/', async (req, res) => {
     var dataAtual = data.toLocaleDateString('pt-BR', {
         day: '2-digit',
         month: '2-digit',
+        timeZone: 'America/Sao_Paulo'
     });
     var horaAtual = data.toLocaleDateString('pt-BR', {
         hour: '2-digit',
         minute: '2-digit',
+        timeZone: 'America/Sao_Paulo'
     });
 
     var titulo = `${dataAtual} - Nove meses com Maria`
