@@ -9,22 +9,16 @@ router.get('/', async (req, res) => {
         month: '2-digit',
         timeZone: 'America/Sao_Paulo'
     });
-    var horaAtual = data.toLocaleDateString('pt-BR', {
-        hour: '2-digit',
-        minute: '2-digit',
-        timeZone: 'America/Sao_Paulo'
-    });
 
     var titulo = `${dataAtual} - Nove meses com Maria`
-
-    console.log(dataAtual)
-    console.log(horaAtual)
 
     var novenaHoje = Novena9MesesController.getNovenaAtual(dataAtual);
     var oracao_gravidez_maria = Novena9MesesController.getOracao();
     var datas = Novena9MesesController.getListaDatas();
+    var dataOntem = Novena9MesesController.getPrevData(dataAtual);
+    var dataAmanha = Novena9MesesController.getNextData(dataAtual);
 
-    res.render('novena_hoje_view', { titulo, novenaHoje, dataAtual, oracao_gravidez_maria, datas });
+    res.render('novena_hoje_view', { titulo, novenaHoje, dataAtual, oracao_gravidez_maria, datas, dataOntem, dataAmanha });
 });
 
 router.get('/:data', async (req, res) => {
@@ -70,13 +64,17 @@ router.get('/:data', async (req, res) => {
     const novenaHoje = Novena9MesesController.getNovenaAtual(dataAtualFormatada);
     const oracao_gravidez_maria = Novena9MesesController.getOracao();
     var datas = Novena9MesesController.getListaDatas();
+    var dataOntem = Novena9MesesController.getPrevData(dataAtualFormatada);
+    var dataAmanha = Novena9MesesController.getNextData(dataAtualFormatada);
 
     res.render('novena_hoje_view', {
         titulo,
         novenaHoje,
         dataAtual: dataAtualFormatada,
         oracao_gravidez_maria,
-        datas
+        datas,
+        dataOntem,
+        dataAmanha
     });
 });
 

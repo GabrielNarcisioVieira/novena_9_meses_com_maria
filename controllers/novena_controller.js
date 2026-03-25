@@ -27,6 +27,18 @@ class Novena9MesesController {
         });
     }
 
+    static getPrevData(dataAtual) {
+        const idx = novena.findIndex((e) => e.data === dataAtual);
+        if (idx <= 0) return null;
+        return novena[idx - 1].data.replace('/', '-');
+    }
+
+    static getNextData(dataAtual) {
+        const idx = novena.findIndex((e) => e.data === dataAtual);
+        if (idx === -1 || idx >= novena.length - 1) return null;
+        return novena[idx + 1].data.replace('/', '-');
+    }
+
     static getOracao() {
         return oracao_gravidez_maria;
     }

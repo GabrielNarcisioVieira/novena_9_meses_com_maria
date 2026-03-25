@@ -91,10 +91,64 @@
 
     function navegarParaData(){
         var dataSelecionada = document.querySelector('#modalDatas #data-select').value;
-        window.window.location.href = `${dataSelecionada}`;
+        window.location.href = dataSelecionada;
+    }
+
+    /* ── Cookies de dias concluídos ── */
+    function getCookie(name) {
+        var match = document.cookie.match(new RegExp('(?:^|; )' + name.replace(/([.*+?^=!:${}()|[\]\/\\])/g, '\\$1') + '=([^;]*)'));
+        return match ? decodeURIComponent(match[1]) : null;
+    }
+
+    function setCookie(name, value) {
+        document.cookie = name + '=' + encodeURIComponent(value) + '; path=/; max-age=315360000; SameSite=Lax';
+    }
+
+    function getDiasConcluidos() {
+        var raw = getCookie('novenaConcluidos');
+        if (!raw) return [];
+        try { return JSON.parse(raw); } catch (e) { return []; }
+    }
+
+    function toggleConcluido(data) {
+        var dias = getDiasConcluidos();
+        var idx = dias.indexOf(data);
+        if (idx === -1) {
+            dias.push(data);
+        } else {
+            dias.splice(idx, 1);
+        }
+        setCookie('novenaConcluidos', JSON.stringify(dias));
+        atualizarBotaoConcluido(data);
+    }
+
+    function atualizarBotaoConcluido(data) {
+        var concluido = getDiasConcluidos().indexOf(data) !== -1;
+        var btn = document.getElementById('btn-concluido');
+        var badge = document.getElementById('badge-concluido');
+        if (!btn) return;
+        if (concluido) {
+            btn.textContent = '✓ Concluído — Desmarcar';
+            btn.style.backgroundColor = '#28a745';
+            btn.style.borderColor = '#28a745';
+            if (badge) { badge.style.display = 'inline'; }
+        } else {
+            btn.textContent = 'Marcar como concluído';
+            btn.style.backgroundColor = '';
+            btn.style.borderColor = '';
+            if (badge) { badge.style.display = 'none'; }
+        }
     }
 
     document.addEventListener('DOMContentLoaded', function () {
+        /* Inicializar botão concluído */
+        var btnConcluido = document.getElementById('btn-concluido');
+        if (btnConcluido) {
+            var dataAtualEl = btnConcluido.getAttribute('onclick').match(/'([^']+)'/);
+            if (dataAtualEl) atualizarBotaoConcluido(dataAtualEl[1]);
+        }
+
+        /* Pré-selecionar data no modal */
         const select = document.querySelector('#modalDatas #data-select');
         const urlPath = window.location.pathname; // Ex: /novena/12-05 ou /novena
         const regex = /^\/novena\/(\d{2})-(\d{2})$/;
@@ -103,19 +157,16 @@
         const match = urlPath.match(regex);
 
         if (match) {
-            // Se houver data na URL, usa essa data
             const dia = match[1];
             const mes = match[2];
             valorParaSelecionar = `/novena/${dia}-${mes}`;
         } else {
-            // Se não houver, usa data atual
             const hoje = new Date();
             const diaHoje = hoje.toLocaleDateString('pt-BR', { day: '2-digit' });
             const mesHoje = hoje.toLocaleDateString('pt-BR', { month: '2-digit' });
             valorParaSelecionar = `/novena/${diaHoje}-${mesHoje}`;
         }
 
-        // Define a opção como selecionada
         const optionToSelect = select.querySelector(`option[value="${valorParaSelecionar}"]`);
         if (optionToSelect) {
             optionToSelect.selected = true;

@@ -20,22 +20,61 @@
                     </div>
 
                     <div class="row" style="max-width: 600px; margin: 0 auto;">
-                        <div class="col-6">
+                        <div class="col-6 col-md-3">
                             <div class="text-center">
-                                <button class="theme-btn" style=" margin: 0 auto; margin-top: 20px;"
-                                    onclick="abrirModalNavegar({{json datas}})">
-                                    Escolher outra data
+                                {{#if dataOntem}}
+                                <button class="theme-btn" style="margin: 0 auto; margin-top: 20px;"
+                                    onclick="window.location.href='/novena/{{dataOntem}}'">
+                                    ← Ontem
+                                </button>
+                                {{else}}
+                                <button class="theme-btn" style="margin: 0 auto; margin-top: 20px; opacity: 0.4; cursor: not-allowed;" disabled>
+                                    ← Ontem
+                                </button>
+                                {{/if}}
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="text-center">
+                                {{#if dataAmanha}}
+                                <button class="theme-btn" style="margin: 0 auto; margin-top: 20px;"
+                                    onclick="window.location.href='/novena/{{dataAmanha}}'">
+                                    Amanhã →
+                                </button>
+                                {{else}}
+                                <button class="theme-btn" style="margin: 0 auto; margin-top: 20px; opacity: 0.4; cursor: not-allowed;" disabled>
+                                    Amanhã →
+                                </button>
+                                {{/if}}
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="text-center">
+                                <button class="theme-btn" style="margin: 0 auto; margin-top: 20px;"
+                                    onclick="abrirModalNavegar()">
+                                    Escolher data
                                 </button>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-6 col-md-3">
                             <div class="text-center">
-                                <button class="theme-btn" style=" margin: 0 auto; margin-top: 20px;"
+                                <button class="theme-btn" style="margin: 0 auto; margin-top: 20px;"
                                     onclick="window.location.href='/novena'">
-                                    Acessar leitura de hoje
+                                    Leitura de hoje
                                 </button>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="text-center" style="max-width: 600px; margin: 16px auto 0 auto;">
+                        <span id="badge-concluido" style="display:none; background:#28a745; color:#fff; border-radius:20px; padding: 4px 14px; font-size:0.85rem; margin-bottom:8px; display:none;">
+                            ✓ Dia concluído
+                        </span>
+                        <br>
+                        <button id="btn-concluido" class="theme-btn" style="margin-top: 10px;"
+                            onclick="toggleConcluido('{{dataAtual}}')">
+                            Marcar como concluído
+                        </button>
                     </div>
                 </div>
 
