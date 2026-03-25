@@ -19,63 +19,52 @@
                         <p>• Terminar com um Pai-Nosso, três Ave-Marias e um Glória ao Pai.</p>
                     </div>
 
-                    <div class="row" style="max-width: 600px; margin: 0 auto;">
-                        <div class="col-6 col-md-3">
-                            <div class="text-center">
-                                {{#if dataOntem}}
-                                <button class="theme-btn" style="margin: 0 auto; margin-top: 20px;"
-                                    onclick="window.location.href='/novena/{{dataOntem}}'">
-                                    ← Ontem
-                                </button>
-                                {{else}}
-                                <button class="theme-btn" style="margin: 0 auto; margin-top: 20px; opacity: 0.4; cursor: not-allowed;" disabled>
-                                    ← Ontem
-                                </button>
-                                {{/if}}
-                            </div>
+                    <div style="max-width:480px;margin:20px auto 0;">
+                        <!-- Linha 1: Ontem | Hoje | Amanhã -->
+                        <div style="display:flex;gap:6px;justify-content:center;">
+                            {{#if dataOntem}}
+                            <button class="theme-btn nav-btn"
+                                onclick="window.location.href='/novena/{{dataOntem}}'">← Ontem</button>
+                            {{else}}
+                            <button class="theme-btn nav-btn" style="opacity:.4;cursor:not-allowed;" disabled>← Ontem</button>
+                            {{/if}}
+
+                            <button id="btn-hoje" class="theme-btn nav-btn"
+                                onclick="window.location.href='/novena'">Hoje</button>
+
+                            {{#if dataAmanha}}
+                            <button class="theme-btn nav-btn"
+                                onclick="window.location.href='/novena/{{dataAmanha}}'">Amanhã →</button>
+                            {{else}}
+                            <button class="theme-btn nav-btn" style="opacity:.4;cursor:not-allowed;" disabled>Amanhã →</button>
+                            {{/if}}
                         </div>
-                        <div class="col-6 col-md-3">
-                            <div class="text-center">
-                                {{#if dataAmanha}}
-                                <button class="theme-btn" style="margin: 0 auto; margin-top: 20px;"
-                                    onclick="window.location.href='/novena/{{dataAmanha}}'">
-                                    Amanhã →
-                                </button>
-                                {{else}}
-                                <button class="theme-btn" style="margin: 0 auto; margin-top: 20px; opacity: 0.4; cursor: not-allowed;" disabled>
-                                    Amanhã →
-                                </button>
-                                {{/if}}
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-3">
-                            <div class="text-center">
-                                <button class="theme-btn" style="margin: 0 auto; margin-top: 20px;"
-                                    onclick="abrirModalNavegar()">
-                                    Escolher data
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-3">
-                            <div class="text-center">
-                                <button class="theme-btn" style="margin: 0 auto; margin-top: 20px;"
-                                    onclick="window.location.href='/novena'">
-                                    Leitura de hoje
-                                </button>
-                            </div>
+
+                        <!-- Linha 2: Escolher data | Concluído -->
+                        <div style="display:flex;gap:6px;justify-content:center;margin-top:8px;">
+                            <button id="btn-escolher-data" class="theme-btn nav-btn"
+                                onclick="abrirModalNavegar()">Escolher data</button>
+                            <button id="btn-concluido" class="theme-btn nav-btn"
+                                onclick="toggleConcluido('{{dataAtual}}')" data-dia="{{dataAtual}}"><i class="far fa-circle" style="margin-right:5px;"></i>Concluído</button>
                         </div>
                     </div>
 
-                    <div class="text-center" style="max-width: 600px; margin: 16px auto 0 auto;">
-                        <span id="badge-concluido" style="display:none; background:#28a745; color:#fff; border-radius:20px; padding: 4px 14px; font-size:0.85rem; margin-bottom:8px; display:none;">
-                            ✓ Dia concluído
-                        </span>
-                        <br>
-                        <button id="btn-concluido" class="theme-btn" style="margin-top: 10px;"
-                            onclick="toggleConcluido('{{dataAtual}}')">
-                            Marcar como concluído
-                        </button>
-                    </div>
+                    <style>
+                        .nav-btn {
+                            flex: 1;
+                            min-width: 0;
+                            justify-content: center;
+                            align-items: center;
+                            text-align: center;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            font-size: clamp(.78rem, 2.2vw, .95rem);
+                            padding-left: 8px;
+                            padding-right: 8px;
+                            margin-top: 0;
+                        }
+                    </style>
                 </div>
 
                 <section class="subscribe" style="border-radius: 12px; max-width: 600px; margin: 0 20px">
@@ -182,4 +171,12 @@
 
     <!-- Custom Js -->
     <script src="/js/custom.js"></script>
+
+    <div style="text-align:center;padding:24px 0 12px;font-size:0.8rem;color:#999;">
+        <a href="javascript:void(0)" onclick="trocarTema()"
+           style="color:inherit;text-decoration:none;cursor:pointer;">
+            🎨 Tema: <span id="tema-nome">Azul de Maria</span>
+            <span style="font-size:0.72rem;opacity:.65;">&nbsp;(toque para trocar)</span>
+        </a>
+    </div>
 </body>

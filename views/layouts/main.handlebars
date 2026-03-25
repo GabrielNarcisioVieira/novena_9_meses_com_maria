@@ -39,6 +39,48 @@
     <!-- Responsive -->
     <link rel="stylesheet" type="text/css" href="/css/responsive.css">
 
+    <!-- Temas -->
+    <style>
+        html.tema-azul .theme-btn,
+        html.tema-azul .subscribe,
+        html.tema-azul button.scrollTopStick,
+        html.tema-azul .theme-bg-clr { background-color: #2563A8; }
+        html.tema-azul .theme-clr,
+        html.tema-azul .theme-dark-clr { color: #2563A8; }
+        html.tema-azul .theme-bdr-clr { border-color: #2563A8; }
+
+        html.tema-rosa .theme-btn,
+        html.tema-rosa .subscribe,
+        html.tema-rosa button.scrollTopStick,
+        html.tema-rosa .theme-bg-clr { background-color: #C2607E; }
+        html.tema-rosa .theme-clr,
+        html.tema-rosa .theme-dark-clr { color: #C2607E; }
+        html.tema-rosa .theme-bdr-clr { border-color: #C2607E; }
+
+        html.tema-lavanda .theme-btn,
+        html.tema-lavanda .subscribe,
+        html.tema-lavanda button.scrollTopStick,
+        html.tema-lavanda .theme-bg-clr { background-color: #7B5EA7; }
+        html.tema-lavanda .theme-clr,
+        html.tema-lavanda .theme-dark-clr { color: #7B5EA7; }
+        html.tema-lavanda .theme-bdr-clr { border-color: #7B5EA7; }
+
+        .nav-btn {
+            filter: brightness(1.35);
+        }
+        .nav-btn-ativo {
+            filter: brightness(0.82) !important;
+            box-shadow: 0 0 0 3px white inset !important;
+        }
+
+        /* Cor do fundo do preloader por tema */
+        .preloader > svg { fill: #b1712a; }
+        html.tema-azul    .preloader > svg { fill: #2563A8; }
+        html.tema-rosa    .preloader > svg { fill: #C2607E; }
+        html.tema-lavanda .preloader > svg { fill: #7B5EA7; }
+    </style>
+    <script>(function(){var m=document.cookie.match(/(?:^|; )novenaThema=([^;]*)/);var id=m?decodeURIComponent(m[1]):'azul';if(id!=='classico')document.documentElement.className+=' tema-'+id;})();</script>
+
 </head>
 
 <!-- Loader Start -->
@@ -104,6 +146,41 @@
         document.cookie = name + '=' + encodeURIComponent(value) + '; path=/; max-age=315360000; SameSite=Lax';
     }
 
+    /* ── Temas ── */
+    var TEMAS = [
+        { id: 'classico', nome: 'Clássico (Dourado)' },
+        { id: 'azul',     nome: 'Azul de Maria' },
+        { id: 'rosa',     nome: 'Rosa Maternal' },
+        { id: 'lavanda',  nome: 'Lavanda' }
+    ];
+
+    function getTemaAtual() {
+        var t = getCookie('novenaThema');
+        return t || 'azul';
+    }
+
+    function aplicarTema(id) {
+        var html = document.documentElement;
+        html.className = html.className.replace(/\btema-\S+/g, '').trim();
+        if (id !== 'classico') html.className += ' tema-' + id;
+        setCookie('novenaThema', id);
+        var nomeEl = document.getElementById('tema-nome');
+        if (nomeEl) {
+            for (var i = 0; i < TEMAS.length; i++) {
+                if (TEMAS[i].id === id) { nomeEl.textContent = TEMAS[i].nome; break; }
+            }
+        }
+    }
+
+    function trocarTema() {
+        var atual = getTemaAtual();
+        var idx = 0;
+        for (var i = 0; i < TEMAS.length; i++) {
+            if (TEMAS[i].id === atual) { idx = i; break; }
+        }
+        aplicarTema(TEMAS[(idx + 1) % TEMAS.length].id);
+    }
+
     function getDiasConcluidos() {
         var raw = getCookie('novenaConcluidos');
         if (!raw) return [];
@@ -112,11 +189,15 @@
 
     function toggleConcluido(data) {
         var dias = getDiasConcluidos();
-        var idx = dias.indexOf(data);
-        if (idx === -1) {
-            dias.push(data);
+        var jaConcluido = dias.indexOf(data) !== -1;
+        var msg = jaConcluido
+            ? 'Desmarcar o dia ' + data + ' como concluído?'
+            : 'Marcar o dia ' + data + ' como concluído?';
+        if (!confirm(msg)) return;
+        if (jaConcluido) {
+            dias.splice(dias.indexOf(data), 1);
         } else {
-            dias.splice(idx, 1);
+            dias.push(data);
         }
         setCookie('novenaConcluidos', JSON.stringify(dias));
         atualizarBotaoConcluido(data);
@@ -125,18 +206,15 @@
     function atualizarBotaoConcluido(data) {
         var concluido = getDiasConcluidos().indexOf(data) !== -1;
         var btn = document.getElementById('btn-concluido');
-        var badge = document.getElementById('badge-concluido');
         if (!btn) return;
         if (concluido) {
-            btn.textContent = '✓ Concluído — Desmarcar';
-            btn.style.backgroundColor = '#28a745';
-            btn.style.borderColor = '#28a745';
-            if (badge) { badge.style.display = 'inline'; }
+            btn.innerHTML = '<i class="fas fa-check-circle" style="margin-right:5px;"></i>Concluído';
+            btn.style.backgroundColor = '#2d6a4f';
+            btn.style.borderColor = '#2d6a4f';
         } else {
-            btn.textContent = 'Marcar como concluído';
+            btn.innerHTML = '<i class="far fa-circle" style="margin-right:5px;"></i>Concluído';
             btn.style.backgroundColor = '';
             btn.style.borderColor = '';
-            if (badge) { badge.style.display = 'none'; }
         }
     }
 
@@ -144,8 +222,7 @@
         /* Inicializar botão concluído */
         var btnConcluido = document.getElementById('btn-concluido');
         if (btnConcluido) {
-            var dataAtualEl = btnConcluido.getAttribute('onclick').match(/'([^']+)'/);
-            if (dataAtualEl) atualizarBotaoConcluido(dataAtualEl[1]);
+            atualizarBotaoConcluido(btnConcluido.getAttribute('data-dia'));
         }
 
         /* Pré-selecionar data no modal */
@@ -170,6 +247,31 @@
         const optionToSelect = select.querySelector(`option[value="${valorParaSelecionar}"]`);
         if (optionToSelect) {
             optionToSelect.selected = true;
+        }
+
+        /* Destacar botão ativo (Hoje / Escolher data) */
+        var navPath = window.location.pathname;
+        var hoje = new Date();
+        var diaHoje = String(hoje.getDate()).padStart(2, '0');
+        var mesHoje = String(hoje.getMonth() + 1).padStart(2, '0');
+        var dataHoje = diaHoje + '-' + mesHoje;
+        var mData = navPath.match(/^\/novena\/(\d{2}-\d{2})$/);
+
+        if (navPath === '/novena' || (mData && mData[1] === dataHoje)) {
+            var btnH = document.getElementById('btn-hoje');
+            if (btnH) btnH.className += ' nav-btn-ativo';
+        } else if (mData) {
+            var btnD = document.getElementById('btn-escolher-data');
+            if (btnD) btnD.className += ' nav-btn-ativo';
+        }
+
+        /* Inicializar nome do tema no rodapé */
+        var nomeTemEl = document.getElementById('tema-nome');
+        if (nomeTemEl) {
+            var tAtual = getTemaAtual();
+            for (var ti = 0; ti < TEMAS.length; ti++) {
+                if (TEMAS[ti].id === tAtual) { nomeTemEl.textContent = TEMAS[ti].nome; break; }
+            }
         }
     });
 </script>
